@@ -21,6 +21,8 @@ public class DataProvider {
 			
 			WebDriver driver= new EdgeDriver();
 
+			System.out.println("Test git");
+
 		}
 
 	}

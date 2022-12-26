@@ -26,4 +26,12 @@ public class AssertionDemo {
 		 //Assert.assertEquals("AutomationTesting","AutomationTesting" );
 		
 	}
+@Test
+	
+	public void assertionDemo3() {
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://www.facebook.com/");
+		 //Assert.assertEquals("AutomationTesting","AutomationTesting" );
+		
+	}
 }
