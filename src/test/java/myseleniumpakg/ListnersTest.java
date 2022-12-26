@@ -12,12 +12,12 @@ public class ListnersTest implements ITestListener{
 
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("*****onTestSuccess*****"+result.getName());
-		
+		System.out.println("Test git");
 	}
 
 	public void onTestFailure(ITestResult result) {
 		System.out.println("*****onTestFailure*****"+result.getName());
-		
+		System.out.println("Test git");
 	}
 
 	public void onTestSkipped(ITestResult result) {
