@@ -21,13 +21,13 @@ public class ListnersTest implements ITestListener{
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		
+		System.out.println("Test git");
 		
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		
-		
+		System.out.println("Test git");
 	}
 
 	public void onTestFailedWithTimeout(ITestResult result) {
